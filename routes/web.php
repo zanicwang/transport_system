@@ -12,3 +12,5 @@
 */
    
 Route::get('/', 'FreightController@index');
+
+Route::get('/test', 'FreightController@test');

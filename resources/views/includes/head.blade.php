@@ -3,11 +3,11 @@
 <meta name="description" content="">
 <meta name="author" content="Scotch">
 
-<title>Super Cool Layouts</title>
+<title>Transport System</title>
 
 <!-- load bootstrap from a cdn -->
 <link rel="stylesheet" href="{{asset('css/style.css')}}">
-
+<script src="{{asset('js/script.js')}}"></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -20,4 +20,3 @@
 {!! $map['js'] !!}
 <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQs9IyeMpHmaEPjKEuv2A_E4VxLd-3-Vw&callback=initMap"
   type="text/javascript"></script> -->
-<script src="{{asset('js/script.js')}}"></script>

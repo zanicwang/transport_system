@@ -6,7 +6,7 @@
 </head>
 <body>
 <div id="container">
-
+    
     <header class="header">
         @include('includes.header')
     </header>

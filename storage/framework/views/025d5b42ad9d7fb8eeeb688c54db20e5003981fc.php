@@ -18,7 +18,6 @@ afdeling
     <?php $__currentLoopData = $orders; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $order): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
     <div class="row">
         <label><?php echo e($order->address); ?>, <?php echo e($order->zipcode); ?> <?php echo e($order->town); ?></label>
-        
         <select id="select" style="">
             <option style="background-color:lightred">Aarhus</option>
             <option style="background-color:lightblue">Viborg</option>
@@ -28,27 +27,7 @@ afdeling
             <option style="background-color:darkyellow">Ringkobing</option>
             <option style="background-color:lightgrey">Not asigned</option>
             <option style="background-color:black">Delivered</option>
-
         </select>
     </div>
     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-</div>
-
-<div class="push_pins_div">
-    <div class="row">
-        <i></i>
-        <label>Not assigned</label>
-    </div>
-    <div class="row">
-        <i></i>
-        <label>Ringkebing</label>
-    </div>
-    <div class="row">
-        <i></i>
-        <label>Varde</label>
-    </div>
-    <div class="row">
-        <i></i>
-        <label>Not assigned</label>
-    </div>
 </div>

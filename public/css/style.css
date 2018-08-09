@@ -138,6 +138,19 @@ body{
     height:850px !important;
 }
 
+#asigned_area{
+
+}
+
+#asigned_route{
+        
+}
+
+.go_btn{
+    float: right;
+    margin-top: -50px;
+}
+
 .footer{
     height:50px;
     background-color:#222222;

@@ -15,10 +15,9 @@
 </div>
 afdeling
 <div class="address_match_div">
-    @foreach ($orders as $order)
+    @foreach($orders as $order)
     <div class="row">
         <label>{{$order->address}}, {{$order->zipcode}} {{$order->town}}</label>
-        
         <select id="select" style="">
             <option style="background-color:lightred">Aarhus</option>
             <option style="background-color:lightblue">Viborg</option>
@@ -28,27 +27,7 @@ afdeling
             <option style="background-color:darkyellow">Ringkobing</option>
             <option style="background-color:lightgrey">Not asigned</option>
             <option style="background-color:black">Delivered</option>
-
         </select>
     </div>
     @endforeach
-</div>
-
-<div class="push_pins_div">
-    <div class="row">
-        <i></i>
-        <label>Not assigned</label>
-    </div>
-    <div class="row">
-        <i></i>
-        <label>Ringkebing</label>
-    </div>
-    <div class="row">
-        <i></i>
-        <label>Varde</label>
-    </div>
-    <div class="row">
-        <i></i>
-        <label>Not assigned</label>
-    </div>
 </div>
