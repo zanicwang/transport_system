@@ -18,5 +18,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Raleway:100, 600" rel = "stylesheet" type="text/css">
 {!! $map['js'] !!}
-<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQs9IyeMpHmaEPjKEuv2A_E4VxLd-3-Vw&callback=initMap"
-  type="text/javascript"></script> -->
+<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIv3zAjOAdvN_XkbY7stFTZI8PujZKbP4&callback=initMap"
+  type="text/javascript"></script>
+ -->

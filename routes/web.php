@@ -13,4 +13,8 @@
    
 Route::get('/', 'FreightController@index');
 
+Route::get('/remove_sidebar', 'FreightController@remove_sidebar');
+
+Route::get('/update_delivered', 'FreightController@update_delivered');
+
 Route::get('/test', 'FreightController@test');

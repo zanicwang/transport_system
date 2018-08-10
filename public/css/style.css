@@ -124,7 +124,18 @@ body{
 
 .sidebar .push_pins_div{
     height:330px;
-    padding:20px;
+	margin-left:40px;
+}
+
+.sidebar .push_pins_div a{
+	cursor:pointer;
+	text-decoration:none
+}
+
+
+.sidebar .push_pins_div .remove_img{
+	width:40px;
+	height:40px;
 }
 
 .content{
